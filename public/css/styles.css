@@ -70,7 +70,7 @@ header {
 
 .cl1 {
     border: 2px solid #141c34;
-    margin-right: 27px;
+    margin-right: 20px;
     border-radius: 5px;
     padding: 15px 30px;
     color: #fff;
@@ -474,6 +474,7 @@ header.sticky {
     .parallax .layer6{
         top: 50%;              
     }
+    
 
 }
 
@@ -518,6 +519,11 @@ header.sticky {
         display: flex;
     } */
 }
+@media (max-width: 1300px){
+    .menu-1 .menu1-item .none1{
+        display: none;
+    }
+}
 @media (max-width: 1400px){
     .menu-1 .menu1-item .none{
         display: none;
@@ -529,10 +535,15 @@ header.sticky {
         right: -80%;
         width: 110%;
     }
-    
+    .themevale_store .b1{
+        display: none;
+    }    
 
 }
 
+.col-md-3{
+    margin-bottom: 20px;
+}
 /* main-web-1 */
 .main-web {
     z-index: 1;
@@ -846,7 +857,7 @@ header.sticky {
 }
 
 .show-7 {
-    margin: 130px 0px 100px;
+    margin-top: 130px;
 }
 
 .show-7 .items .image {
